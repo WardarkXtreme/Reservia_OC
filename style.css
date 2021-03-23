@@ -1,3 +1,43 @@
-.super_titre{
-    color: blue;        
+*{
+    font-family: 'Raleway', sans-serif;
 }
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:0px;
+}
+
+.fas{
+    color:#0065FC;
+}
+
+li{
+    color:black;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 35px;
+}
+ul li{
+    border:solid #F2F2F2 2px;
+    border-radius:3em;
+    padding-right:14px;
+    padding-left: 0px;
+}
+
+ul li i{
+    
+    border:solid #DEEBFF 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius:3em;
+    background-color:#DEEBFF;
+
+}
+.menu_de_navigation{
+    text-align: right;
+
+}
+
