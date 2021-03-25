@@ -4,39 +4,37 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
         <script src="https://kit.fontawesome.com/8be45f96a1.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
         <title>Reservia</title>
     </head>
-
     <body>
         <header>
             <nav class="menu_de_navigation">
                 <ul>                    
-                    <li><a href="#">Hébergements</a></li>                    
-                    <li><a href="#">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
+                    <li class="reglage_nav"><a class="nav" href="#">Hébergements</a></li>                    
+                    <li class="reglage_nav"><a class="nav" href="#">Activités</a></li>
+                    <li class="reglage_nav"><a class="nav" href="#">S'inscrire</a></li>
                 </ul>
             </nav>
             <div class="présentation">
-                <img src="reservia.png" alt="reservia_logo" class="logo_reservia">
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                <p>En plein centre ville ou en pleine nature</p>
+                <img src="reservia.png" alt="reservia_logo" id="logo_reservia">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p >En plein centre ville ou en pleine nature</p>
             </div>
-            <div class= "recherche">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <input type="search" placeholder="Marseille, France">
-                    <button type="submit">
-                        <span>Rechercher</span>
-                    </button>
+            <div>
+                <i id="loc" class="fas fa-map-marker-alt"></i>
+                <input type="search" placeholder="Marseille, France">
+                <button type="submit">
+                    <span>Rechercher</span>
+                </button>
             </div>
-            <div class="filtres">
-                <ul>
-                    <li><p>Filtres</p></li>
-                    <li><i class="fas fa-money-check-alt"></i>économique</li>
-                    <li><i class="fas fa-male"></i>Famillial</li>
-                    <li><i class="fas fa-heart"></i>Romantique</li>    
-                    <li><i class="fas fa-dog"></i>Animaux autorisés</li>
+            <div>
+                <ul class="groupe_filtre">
+                    <li class="filtres">Filtres</li>
+                    <li class="reglage_filtre"><i class="fas fa-money-check-alt"></i>économique</li>
+                    <li class="reglage_filtre"><i class="fas fa-male"></i>Famillial</li>
+                    <li class="reglage_filtre"><i class="fas fa-heart"></i>Romantique</li>    
+                    <li class="reglage_filtre"><i class="fas fa-dog"></i>Animaux autorisés</li>
                 </ul>
             </div>
             <div class="information_logements_disponnibles">
