@@ -4,7 +4,10 @@
 
 /*body_marge*/
 body{
-    
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.ajustement{
     margin-top: 0;
     padding-top: 0;
     margin-bottom: 0;
@@ -153,6 +156,11 @@ header ul li .fas{
     margin-bottom: 2%;
 }
 
+.info-ville{
+    margin: 0px;
+    padding: 0px;
+}
+
 #info_ville{
     border:solid #DEEBFF 1px;
     border-radius: 50%;
@@ -187,9 +195,8 @@ header ul li .fas{
     justify-content: space-around;
     align-content: space-around;
     width: 67%;
-    max-width: 1000px;
-    min-height: 650px;
-    max-height: 1000px;
+    min-width: 820px;
+    min-height: 670px;
 }
 
 h2{
@@ -224,15 +231,15 @@ h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 650px;
+    height: 670px;
     width: 30%;
-    min-width: 390px;
+    min-width: 410px;
     max-width: 550px;
 }
 
 .flex_titre2{
     border: none;
-    width:100%;
+    width: 100%;
     height: 4em;
     display: flex;
     align-items: center;
@@ -241,8 +248,8 @@ h2{
 
 /*dimension-des-contenus-hebergement-et-populaire*/
 .dim_img{
-    height:120px;
-    width: 240px;
+    height: 150px;
+    width: 100%;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
 }
@@ -258,8 +265,8 @@ h2{
     border:solid white 3px;
     background-color: white;
     border-radius: 2em;
-    height: 200px;
-    width: 240px;
+    height: 15%;
+    width: 30%;
     padding-left: 0px;
     font-size: 14px;
 }
@@ -272,7 +279,8 @@ h2{
 }
 
 .dimention_etiquette h3, p, aside{
-    margin:auto 8px;  
+    margin: auto;
+    padding-left: 10px;  
     padding-top: 4px;
     font-weight: 700; 
 }
@@ -290,7 +298,7 @@ h2{
 }
 
 .dimention_etiquette2 h3, p, aside{
-    margin:auto 8px;  
+    margin: auto;  
     padding-top: 8px;
 
 }
@@ -411,27 +419,43 @@ h2{
 
 /*réglage-du-footer*/
 .footer{
-    border: solid black 1px;
-    width: 80%;
+    border: none;
+    width: 100%;
+    height: 250px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 4%;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 1.6em;
+    padding-bottom: 10px;
 }
 
 .reglage_footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    width: 75%;
+    padding: 0px;
 }
 
 .reglage_footer ul{
-    border: solid black 1px;
+    border: none;
     list-style-type: none;
     text-decoration: none;
-    width: 200px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    width: auto;
 }
-.reglage_footer ul a{
+.reglage_footer ul li a{
     text-decoration: none;
 }
 
-.remplissage{
-    border: solid black 1px;
-    width: 100%;
+.reglage_footer ul li{
+    padding-bottom: 10px;
+    font-size: 1.5em;
 }
