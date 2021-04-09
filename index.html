@@ -15,11 +15,15 @@
         <div class="ajustement">
             <header>
                 <nav>
-                    <ul class="menu_de_navigation">                    
-                        <li class="reglage_nav"><a class="nav" href="#">Hébergements</a></li>                    
-                        <li class="reglage_nav"><a class="nav" href="#">Activités</a></li>
-                        <li class="reglage_nav"><a class="nav" href="#">S'inscrire</a></li>
-                    </ul>
+                    <div class="menu_de_navigation">
+                        <ul class="menu_smart">
+                            <li class="reglage_nav"><a class="nav" href="#ancre1">Hébergements</a></li>                    
+                            <li class="reglage_nav"><a id="ablack" class="nav" href="#ancre2">Activités</a></li>
+                        </ul>
+                        <ul class="inscription">
+                            <li class="reglage_nav2"><a class="nav" href="#">S'inscrire</a></li>
+                        </ul>    
+                    </div>
                 </nav>          
                 <div class="header_logo_et_titre">
                     <img src="imagehtml/reservia.png" alt="reservia_logo" id="logo_reservia">
@@ -30,7 +34,8 @@
                     <i id="loc" class="fas fa-map-marker-alt"></i>
                     <input class="tapetext" type="search" placeholder="Marseille, France">
                     <button type="submit">
-                    <span>Rechercher</span>
+                    <span class="btn1">Rechercher</span>
+                    <span class="btn2"><i id="fasearch" class="fas fa-search"></i></span>
                     </button>
                 </div>
                     <ul class="groupe_filtre">
@@ -45,7 +50,7 @@
                 </div>
             </header>
             <div class="mise_en_page_1">
-                <section class="section_hebergement">
+                <section id="ancre1" class="section_hebergement">
                     <div class="flex_titre1">
                         <h2>Hébergements à Marseille</h2> 
                     </div>                       
@@ -117,7 +122,7 @@
                 </section>
             </div>
             <div class="mise_en_page_2">      
-                <section class="section_activité">
+                <section id="ancre2" class="section_activité">
                     <div class="flex_titre3">
                         <h2>Activité à Marseille</h2>
                     </div>
@@ -152,32 +157,31 @@
                 </section>
             </div>
         </div>     
-                <div class="footer">
-                    <section class="reglage_footer">
-                        <div>
-                            <ul>
-                                <li class="title">A propos</li>
-                                <li><a href="#">Fonctionnement du site</a></li>
-                                <li><a href="#">Conditions générales de vente</a></li>
-                                <li><a href="#">Données et confidentialité</a></li>
-                            </ul>
-                        </div>
-                        <div>   
-                            <ul>
-                                <li class="title">Nos hébergements</li>
-                                <li><a href="#">Charte qualité</a></li>
-                                <li><a href="#">Soumettre votre hôtel</a></li>
-                            </ul>
-                        </div>
-                        <div>    
-                            <ul>
-                                <li class="title">Assistance</li>
-                                <li><a href="#">Centre d'aide</a></li>
-                                <li><a href="#">Nous contacter</a></li>
-                            </ul>
-                        </div>     
-                    </section>
-                </div> 
-            </div>
+            <div class="footer">
+                <section class="reglage_footer">
+                    <div>
+                        <ul>
+                            <li class="title"><h4>A propos</h4></li>
+                            <li><a href="#">Fonctionnement du site</a></li>
+                            <li><a href="#">Conditions générales de vente</a></li>
+                            <li><a href="#">Données et confidentialité</a></li>
+                        </ul>
+                    </div>
+                    <div>   
+                        <ul>
+                            <li class="title">Nos hébergements</li>
+                            <li><a href="#">Charte qualité</a></li>
+                            <li><a href="#">Soumettre votre hôtel</a></li>
+                        </ul>
+                    </div>
+                    <div>    
+                        <ul>
+                            <li class="title">Assistance</li>
+                            <li><a href="#">Centre d'aide</a></li>
+                            <li><a href="#">Nous contacter</a></li>
+                        </ul>
+                    </div>     
+                </section>
+            </div>        
     </body>
 </html>
