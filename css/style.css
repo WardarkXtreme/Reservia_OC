@@ -65,7 +65,7 @@ body{
     border-top: solid #0065FC 0.2em;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
 
     .ajustement{
         margin-left: 0%;
@@ -143,7 +143,7 @@ header div p{
     }
 }
 
-@media screen and (min-width: 450px) and (max-width: 900px){
+@media screen and (min-width: 450px) and (max-width: 1024px){
     .ligne_de_recherche{
         justify-content: flex-start;
         padding-left: 10px;
@@ -192,7 +192,7 @@ button{
     color: white;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .btn1{
         display: none;
     }
@@ -237,7 +237,7 @@ button{
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .groupe_filtre{
         width: 100%;
     }
@@ -314,7 +314,7 @@ header ul li .fas{
     align-items: flex-start;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .mise_en_page_1{
         flex-direction: column-reverse;
     }
@@ -335,12 +335,13 @@ header ul li .fas{
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
+    margin-top: 20px;
     width: 67%;
     min-width: 760px;
     min-height: 670px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .section_hebergement{
         background: white;
         width: 100%;
@@ -365,7 +366,7 @@ h2{
     font-weight: 900;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     #afficher_plus{
         width: 80%;
     }
@@ -380,18 +381,19 @@ h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
     height: 670px;
     width: 30%;
     min-width: 370px;
     max-width: 550px;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .section_populaire{
         width: 100%;
         height: 500px;
         padding-bottom: 20px;
         min-width: 0px;
-        max-width: 950px;
+        max-width: 1024px;
     }
 }
 
@@ -404,7 +406,7 @@ h2{
     align-items: center;
     justify-content: space-around;  
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .flex_titre2{
         font-size: 13px;
         width: 80%;
@@ -459,10 +461,11 @@ h2{
     font-size: 14px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .dimention_etiquette{
         width: 80%;
         min-width: 0px;
+        max-width: 650px;
         height: auto;
     }
     .dim_img{
@@ -501,10 +504,11 @@ h2{
     display: flex;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .dimention_etiquette2{
         width: 80%;
         min-width: 0px;
+        max-width: 650px;
         height: auto;
     }
     .dim_img2{
@@ -550,7 +554,7 @@ h2{
     justify-content: space-between;
 
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .section_activité{
         align-items: center;
         justify-content: space-around;
@@ -565,7 +569,7 @@ h2{
     width: 100%;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .flex_titre3{
         width: 80%;
         font-size: 13px;
@@ -585,9 +589,10 @@ h2{
     width: 300px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .dimention_etiquette3{
         width: 80%;
+        max-width: 650px;
         height: auto;
     }
     .dim_img3{
@@ -608,11 +613,13 @@ h2{
     border-radius: 20px;
     width: 300px;
     max-height: 290px;
+    max-width: 650px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .dimention_etiquette4{
         width: 100%;
+        max-width: 650px;
         height: auto;
     }
     .dim_img4{
@@ -628,9 +635,10 @@ h2{
     width: 300px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     div .dimention_etiquette5{
         width: 100%;
+        max-width: 650px;
         height: auto;
     }
     .dim_img5{
@@ -669,9 +677,10 @@ h2{
     height: 220px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     div .dimention_etiquette6{
         width: 100%;
+        max-width: 650px;
         height: auto;
     }
     .dim_img6{
@@ -717,7 +726,7 @@ h2{
     margin-top: 4px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .title h4{
         margin-bottom: 0px;
     }
@@ -748,7 +757,7 @@ h2{
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
     .footer{
         display: flex;
         flex-direction: column;
