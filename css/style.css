@@ -2,6 +2,15 @@
     font-family: 'Raleway', sans-serif;
 }
 
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtaorCMPrEHJA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
 /*body_marge*/
 body{
     margin: 0;
@@ -127,7 +136,7 @@ header div h1{
 
 header div p{
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 200;
     color: black;
 }
 
@@ -151,7 +160,6 @@ header div p{
 }
 #loc{
     color: black;
-    border: solid #F2F2F2 1px;
     border-bottom-left-radius: 30%;
     border-top-left-radius: 30%;
     background-color: #F2F2F2;
@@ -177,7 +185,7 @@ input, button:focus{
 }
 
 button{
-    border: solid #0065FC 1px;
+    border: none;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     background-color: #0065FC;
@@ -277,7 +285,7 @@ header ul li .fas{
     width: 43px;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: solid #DEEBFF 1px;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,7 +382,7 @@ h2{
 
 
 .section_populaire{
-    border: solid #F2F2F2 1px;
+    border: none;
     background-color: #F2F2F2;
     border-radius: 14px;
     display: flex;
@@ -452,13 +460,19 @@ h2{
 
 .dimention_etiquette{
     box-shadow: #F2F2F2 0 1px 1px 2px;
-    border:solid white 3px;
+    border:solid #fffffe 2px;
     background-color: white;
     border-radius: 30px;
     height: 15%;
     width: 30%;
     padding-left: 0px;
     font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.dimention_etiquette p{
+    font-weight: 200;
 }
 
 @media screen and (max-width: 1024px){
@@ -471,6 +485,7 @@ h2{
     .dim_img{
         height: 150px;
         min-height: 0px;
+        object-fit: cover;
     }
 }
 
@@ -485,6 +500,7 @@ h2{
     margin: auto;
     padding-left: 10px;  
     padding-top: 4px;
+    padding-bottom: 8px;
     font-weight: 700; 
 }
 
@@ -493,7 +509,7 @@ h2{
 }
 
 .dimention_etiquette2{
-    border:solid white 3px;
+    border:solid #fffffe 2px;
     background-color: white;
     border-radius: 30px;
     width: 80%;
@@ -502,7 +518,14 @@ h2{
     font-size: 14px;
     font-weight: bold;
     display: flex;
+    color: black;
+    text-decoration: none;
 }
+
+.dimention_etiquette2 p{
+    font-weight: 200;
+}
+
 
 @media screen and (max-width: 1024px){
     .dimention_etiquette2{
@@ -515,6 +538,7 @@ h2{
         height: 120px;
         width: 120px;
         min-height: 0px;
+        object-fit: cover;
     }
 }
 
@@ -581,12 +605,15 @@ h2{
     border-top-right-radius: 20px;
     height: 400px;
     width: 300px;
+    object-fit: cover;
 }
 
 .dimention_etiquette3{
     box-shadow: #F2F2F2 0 1px 1px 2px;
     border-radius: 20px;
     width: 300px;
+    color: black;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1024px){
@@ -598,6 +625,7 @@ h2{
     .dim_img3{
         height: 150px;
         width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -614,6 +642,8 @@ h2{
     width: 300px;
     max-height: 290px;
     max-width: 650px;
+    color: black;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1024px){
@@ -625,6 +655,7 @@ h2{
     .dim_img4{
         height: 150px;
         width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -644,6 +675,7 @@ h2{
     .dim_img5{
         height: 150px;
         width: 100%;
+        object-fit: cover;
     }
     .-column-{
         width: 80%;
@@ -661,6 +693,8 @@ h2{
     border-radius: 20px;
     width: 300px;
     max-height: 210px;
+    color: black;
+    text-decoration: none;
 }
 
 .dim_img6{
@@ -675,6 +709,8 @@ h2{
     border-radius: 20px;
     width: 300px;
     height: 220px;
+    color: black;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1024px){
@@ -686,6 +722,7 @@ h2{
     .dim_img6{
         height: 150px;
         width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -717,7 +754,7 @@ h2{
 
 .title{
     font-weight: 700;
-    font-size: 1.6em;
+    font-size: 1.5em;
     padding-bottom: 10px;
 }
 
@@ -750,12 +787,15 @@ h2{
 }
 .reglage_footer ul li a{
     text-decoration: none;
+    font-weight: 200;
+    color: black;
+    font-size: 1em;
 }
 
 .reglage_footer ul li{
     padding-bottom: 10px;
-    font-size: 1.5em;
 }
+
 
 @media screen and (max-width: 1024px){
     .footer{
