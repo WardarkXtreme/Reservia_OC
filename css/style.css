@@ -449,6 +449,7 @@ h2{
     width: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    object-fit: cover;
 }
 
 .dim_img2{
@@ -456,6 +457,7 @@ h2{
     width: 145px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    object-fit: cover;
 }
 
 .dimention_etiquette{
@@ -485,7 +487,6 @@ h2{
     .dim_img{
         height: 150px;
         min-height: 0px;
-        object-fit: cover;
     }
 }
 
@@ -538,7 +539,6 @@ h2{
         height: 120px;
         width: 120px;
         min-height: 0px;
-        object-fit: cover;
     }
 }
 
@@ -625,7 +625,6 @@ h2{
     .dim_img3{
         height: 150px;
         width: 100%;
-        object-fit: cover;
     }
 }
 
@@ -634,6 +633,7 @@ h2{
     border-top-right-radius: 20px;
     height: 180px;
     width: 300px;
+    object-fit: cover;
 }
 
 .dimention_etiquette4{
@@ -655,7 +655,6 @@ h2{
     .dim_img4{
         height: 150px;
         width: 100%;
-        object-fit: cover;
     }
 }
 
@@ -664,6 +663,7 @@ h2{
     border-top-right-radius: 20px;
     height: 120px;
     width: 300px;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1024px){
@@ -675,7 +675,6 @@ h2{
     .dim_img5{
         height: 150px;
         width: 100%;
-        object-fit: cover;
     }
     .-column-{
         width: 80%;
@@ -702,6 +701,7 @@ h2{
     border-top-right-radius: 20px;
     height: 150px;
     width: 300px;
+    object-fit: cover;
 }
 
 .dimention_etiquette6{
@@ -722,7 +722,6 @@ h2{
     .dim_img6{
         height: 150px;
         width: 100%;
-        object-fit: cover;
     }
 }
 
