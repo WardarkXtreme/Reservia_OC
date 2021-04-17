@@ -464,10 +464,6 @@ h2{
     text-decoration: none;
 }
 
-.dimention_etiquette p{
-    font-weight: 200;
-}
-
 @media screen and (max-width: 1024px){
     .dimention_etiquette{
         width: 80%;
@@ -493,7 +489,7 @@ h2{
     padding-left: 10px;  
     padding-top: 4px;
     padding-bottom: 8px;
-    font-weight: 700; 
+    font-weight: 600; 
 }
 
 .dimention_etiquette aside{
@@ -515,7 +511,7 @@ h2{
 }
 
 .dimention_etiquette2 p{
-    font-weight: 200;
+    font-weight: 600;
 }
 
 
