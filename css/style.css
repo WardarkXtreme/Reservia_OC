@@ -1,18 +1,8 @@
-*{
-    font-family: 'Raleway', sans-serif;
-}
-
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 200;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtaorCMPrEHJA.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 /*body_marge*/
 body{
+    font-family: 'Raleway';
     margin: 0;
     padding: 0;
 }
@@ -136,7 +126,7 @@ header div h1{
 
 header div p{
     font-size: 1em;
-    font-weight: 200;
+    font-weight: 600;
     color: black;
 }
 
@@ -264,6 +254,7 @@ button{
     }
     .info-ville{
         font-size: 14px;
+        font-weight: 600;
     }
     .information_logement_disponible{
         padding-left: 10px;
@@ -786,7 +777,7 @@ h2{
 }
 .reglage_footer ul li a{
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 600;
     color: black;
     font-size: 1em;
 }
@@ -794,7 +785,6 @@ h2{
 .reglage_footer ul li{
     padding-bottom: 10px;
 }
-
 
 @media screen and (max-width: 1024px){
     .footer{
