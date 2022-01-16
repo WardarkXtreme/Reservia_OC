@@ -1,2 +1,21 @@
-lien vers la page ==> https://wardarkxtreme.github.io/p2_Biard_Florian.github.io/
-lien Github ==> https://github.com/WardarkXtreme/p2_Biard_Florian.github.io
+
+Bienvenue sur le projet 2 "Reservia" d'Openclassrooms!
+
+construire un site grâce à une maquette en html5 et css3!
+
+\\___________________________________________//
+⚠️Reproduction d'une maquette site statique 
+             Site non fonctionnel 
+             Seulement visuel.
+===============================================
+
+Visible à ce lien lien vers la page ==> https://wardarkxtreme.github.io/p2_Biard_Florian.github.io/
+
+██*▄███▄███▄**███████▄**████████**██*******██
+██*█████████**██     █**██*********██*****██
+██**▀█████▀***██     █**████████****██***██
+██***▀███▀****██     █**██***********██*██
+██****▀█▀*****███████▀**████████******▀█▀
+
+
+
