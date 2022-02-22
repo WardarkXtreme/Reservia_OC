@@ -9,7 +9,7 @@ construire un site grâce à une maquette en html5 et css3!
              Seulement visuel.
 ===============================================
 
-Visible à ce lien ==> https://wardarkxtreme.github.io/p2_Biard_Florian.github.io/
+Visible à ce lien ==> https://wardarkxtreme.github.io/Reservia_OC/
 
 ██*▄███▄███▄**███████▄**████████**██*******██
 ██*█████████**██     █**██*********██*****██
